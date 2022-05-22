@@ -62,10 +62,6 @@ app.get('/',function(req,res){
 // app.listen(5000,()=>{
 //     console.log("Server Ready on 3000");
 // });
-<<<<<<< HEAD
-app.listen(process.env.PORT || 3000, function(){
-=======
 app.listen(process.env.PORT || 5000, function(){
->>>>>>> parent of 1ab24e6 (make it better)
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
   });
