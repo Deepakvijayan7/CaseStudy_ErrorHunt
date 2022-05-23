@@ -1,7 +1,6 @@
 const express = require('express'); 
 const path = require ('path'); 
 const cors = require('cors');
-//part 1 point 1
 const bodyParser=require('body-parser');
 
 const nav= [
